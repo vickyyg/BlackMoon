@@ -1,0 +1,54 @@
+.footer {
+    background: black;
+    text-align: center;
+    padding: 20px 0;
+    height: auto; /* Ajusta la altura automática */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; /* Asegura que los elementos estén a los extremos */
+  }
+  
+  .footer h3 {
+    color: rgb(233, 170, 227);
+    font-size: 20px;
+  }
+  
+  .footer img {
+    max-width: 150px; /* Ajusta el tamaño máximo de la imagen */
+    margin-right: 20px;
+  }
+  
+  .icons {
+    list-style: none; /* Elimina los puntos de las listas */
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Alinea los íconos a la izquierda */
+    margin-top: 20px;
+  }
+  
+  .icons li {
+    display: inline-block; /* Cambia a inline-block para ajustar márgenes */
+    margin: 0 10px; /* Agrega un margen de 10px a cada lado */
+    cursor: pointer;
+  }
+  
+  .icons li i {
+    color: rgb(196, 161, 192); /* Cambia el color de los iconos */
+    font-size: 24px; /* Cambia el tamaño de los iconos */
+  }
+  
+  .footer p {
+    margin-top: 20px;
+    font-size: 10px;
+  }
+  
+  .footer-left {
+    flex: 1;
+    text-align: left;
+    padding-left: 20px;
+  }
+  

@@ -1,0 +1,68 @@
+/* Estilos para la imagen del logo */
+.logoimg {
+    width: auto;
+    height: 60px;
+    margin-right: -60px;
+}
+
+/* Estilos para el icono de menú hamburguesa */
+.menu-icon {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 120px;
+    cursor: pointer;
+}
+
+/* Estilos para el contenedor del menú móvil */
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: black;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Estilos para el contenedor del menú móvil cuando está abierto */
+.mobile-menu.open {
+    display: block;
+    transform: translateX(0);
+}
+
+/* Estilos para el icono de cerrar */
+.close-icon {
+    display: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Ocultar el menú de navegación normal en dispositivos móviles */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        position: absolute;
+        left: 10px; /* Ajusta este valor para pegarlo más al borde */
+        top: 30px; /* Ajusta este valor según sea necesario */
+    }
+    .close-icon {
+        display: block;
+    }
+    .me-auto {
+        display: none;
+    }
+    .navbar-brand {
+        margin-left: auto;
+    }
+}

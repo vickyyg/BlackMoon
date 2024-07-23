@@ -1,0 +1,95 @@
+.title-card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.left-side {
+  flex: 1;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+.left-side h1 {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal; 
+  font-size: 60px;
+  color: rgb(206, 112, 196);
+}
+
+.left-side p {
+  font-family: "Raleway", sans-serif;
+}
+
+.right-card {
+  flex: 1;
+  position: relative;
+  border-color: black;
+}
+
+.responsive-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  display: none; /* Oculto por defecto */
+}
+
+.overlay-content {
+  color: white;
+  text-align: center;
+}
+
+.overlay-content h1 {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal; 
+  font-size: 40px;
+  color: rgb(206, 112, 196);
+}
+
+.overlay-content p {
+  font-family: "Raleway", sans-serif;
+}
+
+.visit-store-button {
+  background: rgb(206, 112, 196);
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .title-card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-side {
+    display: none; /* Oculta el contenido de la izquierda */
+  }
+
+  .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+  }
+
+  .overlay-content {
+    width: 100%; /* Asegura que el contenido ocupe todo el ancho de la imagen */
+    padding: 10px; /* Agrega padding para asegurar que el texto no esté pegado a los bordes */
+  }
+
+  .visit-store-button {
+    margin-top: 1px;
+  }
+}

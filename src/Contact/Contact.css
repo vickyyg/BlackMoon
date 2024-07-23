@@ -1,0 +1,40 @@
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+}
+
+.left, .right {
+  flex: 1;
+  margin: 20px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+
+.contact-title {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(241, 226, 226);
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+  .left {
+    display: none; /* Ocultar la imagen en pantallas pequeñas */
+  }
+  .right {
+    width: 100%; /* Asegurar que el formulario ocupe todo el ancho */
+  }
+  .contact-title{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+  }
+}
