@@ -15,7 +15,7 @@ const Footer = () => {
         <p>© Black Moon Cosmetics. Todos los derechos reservados.</p>
       </div>
       <div>
-        <img src='./img/footer.jpg' alt="Footer Image" />
+        <img src='./src/img/footer.jpg' alt="Footer Image" />
       </div>
     </div>
   )

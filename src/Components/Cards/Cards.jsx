@@ -17,7 +17,7 @@ function Cards() {
         </div>
         
         <Card className='right-card'>
-          <Card.Img variant="top" src="./img/moon2.jpg" className="responsive-img"/>
+          <Card.Img variant="top" src="./src/img/moon2.jpg" className="responsive-img"/>
           <div className='overlay'>
             <div className='overlay-content'>
               <h1>Black Moon Cosmetics</h1>

@@ -1,10 +1,10 @@
 import './App.css' 
-import Cards from './Cards/Cards'
-import Info from './Info/Info'
-import Navbars from './Navbar/Navbar'
-import Exp from './Exp/Exp'
-import ContactForm from './Contact/Contact'
-import Footer from './Footer/Footer'
+import Cards from './Components/Cards/Cards'
+import Info from './Components/Info/Info'
+import Navbars from './Components/Navbar/Navbar'
+import Exp from './Components/Exp/Exp'
+import ContactForm from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 
 
 function App() {

@@ -24,7 +24,7 @@ function Navbars() {
             <Nav.Link style={{ color: 'rgb(241, 226, 226)' }} href="#contact">Contacto</Nav.Link>
           </Nav>
           <Navbar.Brand href="#home" style={{ marginBottom: '120px', marginLeft: 'auto' }}>
-            <img src='./img/logo.jpg' alt='' className='logoimg' />
+            <img src='./src/img/logo.jpg' alt='' className='logoimg' />
           </Navbar.Brand>
         </Container>
       </Navbar>
