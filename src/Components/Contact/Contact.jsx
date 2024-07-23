@@ -23,7 +23,7 @@ function ContactForm() {
         }}
       >
         <Card style={{ width: '38rem', borderColor:'black' }}>
-          <Card.Img variant="top" src="./src/img/moon3.webp" style={{height:'750px'}}/>
+          <Card.Img variant="top" src="/img/moon3.webp" style={{height:'750px'}}/>
         </Card>
       </motion.div>
 

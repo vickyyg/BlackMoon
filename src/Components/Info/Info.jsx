@@ -17,7 +17,7 @@ function Info() {
         ease: "easeInOut" // Tipo de transición
       }}
     >
-      <Image src="./src/img/moon11.webp" fluid  style={{width:'100%'}}/>
+      <Image src="/img/moon11.webp" fluid  style={{width:'100%'}}/>
     </motion.div>
   );
 }
